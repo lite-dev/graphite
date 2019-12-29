@@ -1,0 +1,37 @@
+.graph-container {
+	background : #EFEFEF;
+	height: 100%;
+	position: relative;
+	width: 80%;
+}
+
+.page {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+}
+
+sidebar {
+	background: #DEF0FF;
+	width: 20%;
+}
+
+.__graph__, .__grid__ {
+
+}
+
+.__node__ {
+	background : #F5F6F1;
+	border : 1px solid #D4D2D2;
+	border-radius : 100%;
+	color : #777777;
+	height : 50px;
+	filter : drop-shadow(0px 2px 2px #D4D2D2);
+	font-family : Helvetica, Arial, sans-serif;
+	width  : 50px;
+}
+
+.__node_active__ {
+	border : 1px solid #7fc6e8;
+	filter : drop-shadow(0px 1px 0px #7fc6e8);
+}
