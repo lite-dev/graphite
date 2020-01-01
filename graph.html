@@ -5,11 +5,18 @@
     <script src="init.js"></script>
     <link rel="stylesheet" type="text/css" href="graph.css" />
     <link rel="stylesheet" type="text/css" href="init.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="page">
         <div class="graph-container">
-            <div class="graph"></div>
+            <div class="graph">
+                <div class="__actions__">
+                    <i class="fas fa-link link __action__"></i>
+                    <i class="fas fa-search-minus  __action__"></i>
+                    <i class="fas fa-search-plus  __action__"></i>
+                </div>
+            </div>
             <canvas class="graph-canvas"></canvas>
         </div>
         <sidebar>
@@ -18,10 +25,6 @@
             <div class="_node_">Baz</div>
             <div class="_node_">Qux</div>
             <div class="_node_">Quux</div>
-
-            <div class="link">
-                Link
-            </div>
         </sidebar>
     </div>
 </body>

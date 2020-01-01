@@ -465,8 +465,8 @@ function Snap() {
 			const columns = Math.round(element.clientWidth / size);
 			const rows    = Math.round(element.clientHeight / size);
 	
-			context.strokeStyle = `rgba(122, 121, 119, 0.15)`;
-			context.fillStyle   = `rgba(122, 121, 119, 0.15)`;
+			context.strokeStyle = `rgba(105, 105, 105, 0.2)`;
+			context.fillStyle   = `rgba(105, 105, 105, 0.2)`;
 	
 			for(let i = 0; i <= height; i += size) {
 				context.beginPath();
